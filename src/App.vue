@@ -25,7 +25,6 @@
           class="cursor-pointer hover:underline mr-2 mt-1"
           data-cy="logout"
           @click="logoutAndReturn"
-          @keydown.enter="logoutAndReturn"
         >
           Logout
         </div>

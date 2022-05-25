@@ -191,11 +191,13 @@ module.exports = {
       alignAttributesVertically: true,
       ignores: [],
     }],
+    'vuejs-accessibility/click-events-have-key-events': 0,
   },
   overrides: [
     {
       files: [
         'src/components/AppHome.vue',
+        'src/components/CreateNew.vue',
       ],
       rules: {
         'vue/no-v-html': 0,
@@ -208,6 +210,14 @@ module.exports = {
       ],
       rules: {
         'import/no-extraneous-dependencies': 0,
+      },
+    },
+    {
+      files: [
+        'tests/**/*.ts',
+      ],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 0,
       },
     },
     // See Note: https://eslint.vuejs.org/rules/script-indent.html#options

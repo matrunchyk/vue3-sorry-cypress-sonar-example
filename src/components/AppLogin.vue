@@ -53,7 +53,6 @@
           class="cursor-pointer hover:underline p-1"
           data-cy="forgot"
           @click="forgot"
-          @keydown.enter="forgot"
         >Forgot password?</span>
       </div>
 
@@ -61,7 +60,6 @@
         class="cursor-pointer hover:underline mt-4 text-center"
         data-cy="go-back"
         @click="push({name: 'home'})"
-        @keydown.enter="push({name: 'home'})"
       >
         Back to posts
       </div>

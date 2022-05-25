@@ -1,9 +1,11 @@
 /.nyc_output
 /coverage
 /node_modules
-.env
-.idea
+/.env
+/.idea
 /.scannerwork
 /data
 /dist
 /dist-e2e
+/tests/videos
+/tests/screenshots

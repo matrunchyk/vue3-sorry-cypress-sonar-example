@@ -1,5 +1,5 @@
 import { createApp, defineAsyncComponent } from 'vue';
-import { makeServer } from 'mirage-setup';
+import { makeServer } from '../tests/mirage';
 import router from './router';
 import './styles/main.pcss';
 

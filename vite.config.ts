@@ -15,7 +15,7 @@ export default ({ mode }) => {
       exclude: ['node_modules', 'tests'],
       cypress: true,
       checkProd: false,
-      forceBuildInstrument: true,
+      // forceBuildInstrument: true,
     }),
   ] : [];
 
@@ -23,7 +23,7 @@ export default ({ mode }) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
-        'mirage-setup': isTest ? './mirage/index' : './mirage/stub',
+        'mirage-setup': isTest ? path.resolve(__dirname, './tests/mirage/index') : path.resolve(__dirname, './tests/mirage/stub'),
       },
       extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
     },
@@ -42,12 +42,15 @@ export default ({ mode }) => {
     server: {
       watch: {
         ignored: [
-          'coverage/**',
-          'dist/**',
-          'dist-e2e/**',
-          '.nyc_output/**',
+          'coverage/**/*',
+          'dist/**/*',
+          'dist-e2e/**/*',
+          '.nyc_output/**/*',
         ],
       },
+    },
+    optimizeDeps: {
+      exclude: ['coverage'],
     },
   });
 };

@@ -41,7 +41,6 @@
           class="border border-blue-600 cursor-pointer hover:bg-gray-50 hover:border-blue-700 hover:text-blue-700 p-1 rounded text-center w-32"
           data-cy="cancel"
           @click="push({name: 'home'})"
-          @keydown.enter="push({name: 'home'})"
         >Cancel</span>
       </div>
     </div>

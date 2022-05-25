@@ -9,10 +9,10 @@
      "src"
   ],
   "exclude": [
-    "src/assets/**/*",
-    "src/styles/**/*",
-    "**/*.d.ts",
-    "tests/**/*.ts"
+    "src/assets",
+    "src/styles",
+    "tests/**/*",
+    "**/*.d.ts"
   ],
   "extension": [
     ".ts",

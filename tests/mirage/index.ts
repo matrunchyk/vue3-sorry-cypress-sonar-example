@@ -1,10 +1,10 @@
 import { createServer, Model } from 'miragejs';
 /* Factories */
-import postFactory from '@/mirage/factories/post';
-import userFactory from '@/mirage/factories/user';
+import postFactory from './factories/post';
+import userFactory from './factories/user';
 /* Routes */
-import { userRoutes } from '@/mirage/routes/user';
-import { postRoutes } from '@/mirage/routes/post';
+import { userRoutes } from './routes/user';
+import { postRoutes } from './routes/post';
 
 export function makeServer({ environment = 'development' } = {}) {
   console.log('Starting mirage...');

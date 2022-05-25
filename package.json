@@ -8,7 +8,8 @@
     "serve:test": "NODE_ENV=test vite --mode test",
     "build:test": "NODE_ENV=test vite build --mode test",
     "preview": "vite preview",
-    "test": "cypress open"
+    "test:open": "cypress open",
+    "test:run": "cypress run"
   },
   "dependencies": {
     "date-fns": "^2.28.0",

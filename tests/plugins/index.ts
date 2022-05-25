@@ -18,7 +18,7 @@ export default ((on, config) => {
   const options = browserify.defaultOptions;
 
   options.browserifyOptions.transform[1][1].babelrc = true;
-  options.debug = true;
+  options.debug = false;
   options.typescript = require.resolve('typescript');
   options.browserifyOptions.transform[0] = [path.join(__dirname, './transformers/aliasify')];
   options.browserifyOptions.transform.push('browserify-istanbul');

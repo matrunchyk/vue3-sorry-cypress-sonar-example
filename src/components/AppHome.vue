@@ -12,7 +12,6 @@
       data-cy="remove-post"
       title="Remove post"
       @click="removePost(post)"
-      @keydown.enter="removePost(post)"
     >
       [x]
     </div>

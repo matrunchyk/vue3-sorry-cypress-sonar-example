@@ -8,6 +8,6 @@ export function formatDate(date: Date) {
   );
 }
 
-export function nlToBr(content = '') {
+export function nlToBr(content: string) {
   return content.replaceAll(/\n/g, '<br>');
 }
