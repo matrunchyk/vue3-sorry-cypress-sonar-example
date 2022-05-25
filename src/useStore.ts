@@ -8,6 +8,7 @@ export interface Post {
 }
 
 export interface User {
+    email: string;
     name: string;
 }
 

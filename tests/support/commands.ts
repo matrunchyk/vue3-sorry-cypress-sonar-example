@@ -1,4 +1,4 @@
-import { randPost, randBetweenDate } from '@ngneat/falso';
+import { randBetweenDate, randPost } from '@ngneat/falso';
 
 // ***********************************************
 // This example commands.js shows you how to
@@ -27,29 +27,28 @@ import { randPost, randBetweenDate } from '@ngneat/falso';
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
 // @ts-ignore
-Cypress.Commands.add('dataCy', (value) => {
-  return cy.get(`[data-cy=${value}]`)
-})
+Cypress.Commands.add('dataCy', value => cy.get(`[data-cy=${value}]`));
 
 // @ts-ignore
 Cypress.Commands.add('login', (name: string) => {
-  sessionStorage.setItem('user', JSON.stringify({name}));
+  sessionStorage.setItem('user', JSON.stringify({ name }));
 });
 
 // @ts-ignore
 Cypress.Commands.add('checkLocationPage', (pathname: string) => {
-  cy.location().should((loc) => {
-    expect(loc.pathname).to.eq(pathname)
-  })
-})
+  cy.location().should(loc => {
+    expect(loc.pathname).to.eq(pathname);
+  });
+});
 
 // @ts-ignore
-Cypress.Commands.add('seedPosts', (count: number = 10) => {
-  const posts = randPost({ length: count })
+Cypress.Commands.add('seedPosts', (count = 10) => {
+  const posts = randPost({ length: count as number });
+
   sessionStorage.setItem('posts', JSON.stringify(posts.map(p => ({
     uuid: p.id,
     title: p.title,
     content: p.body,
     date: randBetweenDate({ from: new Date('10/07/2020'), to: new Date() }),
-  }))))
-})
+  }))));
+});

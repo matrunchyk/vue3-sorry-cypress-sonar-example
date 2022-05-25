@@ -201,6 +201,15 @@ module.exports = {
         'vue/no-v-html': 0,
       },
     },
+    {
+      files: [
+        'src/mirage/**/*.ts',
+        'vite.config.ts',
+      ],
+      rules: {
+        'import/no-extraneous-dependencies': 0,
+      },
+    },
     // See Note: https://eslint.vuejs.org/rules/script-indent.html#options
     {
       files: ['*.vue'],

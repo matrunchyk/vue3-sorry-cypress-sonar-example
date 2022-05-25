@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vite",
     "build": "vite build",
-    "serve:test": "NODE_ENV=test vite serve --mode test",
+    "serve:test": "NODE_ENV=test vite --mode test",
+    "build:test": "NODE_ENV=test vite build --mode test",
     "preview": "vite preview",
     "test": "cypress open"
   },
@@ -41,6 +42,7 @@
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-vue": "^8.7.1",
+    "miragejs": "^0.1.44",
     "nyc": "^15.1.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
