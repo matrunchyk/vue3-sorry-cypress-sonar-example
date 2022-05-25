@@ -1,4 +1,4 @@
-import {createApp, defineAsyncComponent} from 'vue'
+import { createApp, defineAsyncComponent } from 'vue';
 import router from './router';
 import './styles/main.pcss';
 

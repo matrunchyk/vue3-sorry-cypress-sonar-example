@@ -1,6 +1,7 @@
 import {defineConfig, loadEnv} from 'vite'
 import vuePlugin from '@vitejs/plugin-vue'
 import path from "path";
+import eslintPlugin from 'vite-plugin-eslint';
 import istanbulPlugin from 'vite-plugin-istanbul';
 
 export default ({mode}) => {
@@ -32,6 +33,9 @@ export default ({mode}) => {
         },
         plugins: [
             vuePlugin(),
+            eslintPlugin({
+                cache: false,
+            }),
             ...testPlugins,
         ],
         server: {
