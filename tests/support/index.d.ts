@@ -13,6 +13,8 @@ declare namespace Cypress {
         checkLocationPage(pathname: string): Chainable<void>
 
         seedPosts(count?: number): Chainable<void>
+
+        hasGuestLinks(): Chainable<void>
     }
 }
 

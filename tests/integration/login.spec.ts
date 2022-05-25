@@ -12,8 +12,7 @@ describe('Login flow', () => {
     cy.get('[data-cy="login"]').should('contain.text', 'Login');
     cy.get('[data-cy="login"]').click();
     cy.get('[data-cy="page-title"]').should('contain.text', 'Please log in');
-    cy.get('[data-cy="create-new"]').should('not.exist');
-    cy.get('[data-cy="logout"]').should('not.exist');
+    cy.hasGuestLinks();
   });
 
   it('DGC-123: Validates login form', () => {
@@ -24,10 +23,6 @@ describe('Login flow', () => {
     cy.get('[data-cy="password"]').type('someone');
     cy.get('[data-cy="login-submit"]').click();
     cy.dataCy('error-message').should('contain.text', 'Invalid credentials');
-
-    cy.get('[data-cy="username"]').should('have.css', 'outline', 'rgb(249, 168, 212) solid 3px');
-    // or,
-    // cy.screenshot();
   });
 
   it('DGC-123: Returns to home page', () => {
@@ -62,5 +57,13 @@ describe('Login flow', () => {
     cy.get('[data-cy="hello-username"]').should('contain.text', 'Hello, demo');
     cy.get('[data-cy="create-new"]').should('exist');
     cy.get('[data-cy="logout"]').should('exist');
+  });
+
+  it('DGC-123: Logs out the user', () => {
+    cy.login('Hurray');
+    cy.visit('/');
+
+    cy.get('[data-cy="logout"]').click();
+    cy.hasGuestLinks();
   });
 });

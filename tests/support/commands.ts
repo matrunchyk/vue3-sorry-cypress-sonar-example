@@ -52,3 +52,9 @@ Cypress.Commands.add('seedPosts', (count = 10) => {
     date: randBetweenDate({ from: new Date('10/07/2020'), to: new Date() }),
   }))));
 });
+
+// @ts-ignore
+Cypress.Commands.add('hasGuestLinks', () => {
+  cy.get('[data-cy="create-new"]').should('not.exist');
+  cy.get('[data-cy="logout"]').should('not.exist');
+});

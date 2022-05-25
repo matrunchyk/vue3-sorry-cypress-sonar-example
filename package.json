@@ -6,10 +6,17 @@
     "serve": "vite",
     "build": "vite build",
     "serve:test": "NODE_ENV=test vite --mode test",
+    "build:prod": "NODE_ENV=production vite build",
     "build:test": "NODE_ENV=test vite build --mode test",
     "preview": "vite preview",
     "test:open": "cypress open",
-    "test:run": "cypress run"
+    "test:run:local": "cypress run",
+    "test:run:cypress-dashboard": "CYPRESS_PROJECT_ID=5ztemi cypress run --record --key 61e1680d-d3e5-47d8-b0cc-6b584c84b9a0",
+    "test:run:sorry-cypress": "CYPRESS_PROJECT_ID=testing-with-cypress CYPRESS_API_URL=\"http://localhost:1234/\" npx cy2 run --record --key testing-with-cypress --parallel --ci-build-id local-run-triple",
+    "test:run:sonar": "sonar-scanner",
+    "serve:sorry-cypress": "docker-compose -f ./docker-compose.minio.yml up",
+    "serve:sonar": "docker run --rm --name twc-sonarqube -p 9001:9000 sonarqube:lts",
+    "postinstall": "[[ $OSTYPE == 'darwin'* ]] && brew install sonar-scanner"
   },
   "dependencies": {
     "date-fns": "^2.28.0",
@@ -38,6 +45,7 @@
     "babel-plugin-istanbul": "^6.1.1",
     "babel-plugin-transform-import-meta": "^2.1.1",
     "browserify-istanbul": "^3.0.1",
+    "cy2": "^2.0.0",
     "cypress": "^9.7.0",
     "eslint": "^8.15.0",
     "eslint-plugin-cypress": "^2.12.1",
