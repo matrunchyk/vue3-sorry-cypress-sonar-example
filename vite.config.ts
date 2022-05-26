@@ -15,7 +15,7 @@ export default ({ mode }) => {
       exclude: ['node_modules', 'tests'],
       cypress: true,
       checkProd: false,
-      // forceBuildInstrument: true,
+      // forceBuildInstrument: true, // Should be `true` on "build:test" and `false` on "serve:test"
     }),
   ] : [];
 

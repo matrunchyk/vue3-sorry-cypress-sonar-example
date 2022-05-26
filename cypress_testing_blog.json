@@ -1,0 +1,731 @@
+{
+  "title": "Cypress testing blog",
+  "selectorAttribute": "data-cy",
+  "steps": [
+    {
+      "type": "setViewport",
+      "width": 1070,
+      "height": 984,
+      "deviceScaleFactor": 1,
+      "isMobile": false,
+      "hasTouch": false,
+      "isLandscape": false
+    },
+    {
+      "type": "navigate",
+      "url": "http://localhost:3000/",
+      "assertedEvents": [
+        {
+          "type": "navigation",
+          "url": "http://localhost:3000/",
+          "title": "Vite App"
+        }
+      ]
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=login]"
+        ],
+        [
+          "aria/Login"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 27,
+      "offsetY": 16
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=username]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 97.5,
+      "offsetY": 15
+    },
+    {
+      "type": "change",
+      "value": "demo",
+      "selectors": [
+        [
+          "[data-cy=username]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "change",
+      "value": "demo",
+      "selectors": [
+        [
+          "[data-cy=password]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=login-submit]"
+        ],
+        [
+          "aria/Login"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 117.5,
+      "offsetY": 13
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create-new]"
+        ],
+        [
+          "aria/Create new"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 36.09375,
+      "offsetY": 14
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 181.0234375,
+      "offsetY": 11
+    },
+    {
+      "type": "change",
+      "value": "This is a new post",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=content-editable]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 123.171875,
+      "offsetY": 79
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "T"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "h"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "i"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
+    },
+    {
+      "type": "keyUp",
+      "key": "h",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "i",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "s",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "i"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
+    },
+    {
+      "type": "keyUp",
+      "key": "i",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "s",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "a"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "a",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "w"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "w",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "p"
+    },
+    {
+      "type": "keyUp",
+      "key": "p",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "s",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "c"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "c",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create]"
+        ],
+        [
+          "aria/Create"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 75,
+      "offsetY": 12
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create-new]"
+        ],
+        [
+          "aria/Create new"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 54.09375,
+      "offsetY": 15
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 214.0234375,
+      "offsetY": 26
+    },
+    {
+      "type": "change",
+      "value": "One more post",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=content-editable]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 200.171875,
+      "offsetY": 79
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "A"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "a",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "d"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "d",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "m"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "r"
+    },
+    {
+      "type": "keyUp",
+      "key": "m",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "r",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "c"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "c",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create]"
+        ],
+        [
+          "aria/Create"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 89,
+      "offsetY": 16
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=remove-post]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 12.375,
+      "offsetY": 12
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=logout]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 41.6015625,
+      "offsetY": 18
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=logo]"
+        ],
+        [
+          "aria/Cypress testing blog"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 142,
+      "offsetY": 9
+    }
+  ]
+}
