@@ -1,0 +1,19 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "fixturesFolder": "tests/fixtures",
+  "integrationFolder": "tests/integration",
+  "downloadsFolder": "tests/downloads",
+  "videosFolder": "tests/videos",
+  "screenshotsFolder": "tests/screenshots",
+  "supportFile": "tests/support/index.ts",
+  "pluginsFile": "tests/plugins/index.ts",
+  "video": false,
+  "videoCompression": 10,
+  "viewportHeight": 1200,
+  "viewportWidth": 1600,
+  "experimentalStudio": true,
+  "experimentalInteractiveRunEvents": true,
+  "experimentalFetchPolyfill": true,
+  "enablePercyInteractiveMode": true,
+  "baseUrl": "http://127.0.0.1:3000"
+}

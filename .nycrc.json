@@ -1,0 +1,21 @@
+{
+  "cache": true,
+  "all": true,
+  "lines": 100,
+  "branches": 100,
+  "statements": 100,
+  "functions": 100,
+  "include": [
+     "src"
+  ],
+  "exclude": [
+    "src/assets/**/*",
+    "src/styles/**/*",
+    "**/*.d.ts",
+    "tests/**/*.ts"
+  ],
+  "extension": [
+    ".ts",
+    ".vue"
+  ]
+}
