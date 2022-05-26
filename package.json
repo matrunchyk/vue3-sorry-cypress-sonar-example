@@ -1,7 +1,32 @@
 {
-  "name": "testing-with-cypress",
-  "private": true,
-  "version": "0.0.0",
+  "name": "vue3-sorry-cypress-sonar-example",
+  "description": "An example working Demo Blog based on Vue3 and Cypress with Open Source SorryCypress dashboard integration, 100% code coverage, and Sonar setup. All in one, production ready setup.",
+  "keywords": [
+    "vite",
+    "vue3",
+    "vue",
+    "script setup",
+    "mirage",
+    "cypress",
+    "cypress dashboard",
+    "sorry cypress",
+    "docker",
+    "sonar",
+    "code coverage",
+    "tailwind",
+    "production"
+  ],
+  "homepage": "https://github.com/matrunchyk/vue3-sorry-cypress-sonar-example",
+  "bugs": {
+    "url": "https://github.com/matrunchyk/vue3-sorry-cypress-sonar-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matrunchyk/vue3-sorry-cypress-sonar-example.git"
+  },
+  "license": "MIT",
+  "author": "Serhii Matrunchyk",
+  "version": "0.0.1",
   "scripts": {
     "serve": "vite",
     "build": "vite build",
