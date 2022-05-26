@@ -65,6 +65,12 @@ services:
     ports:
       - "9000:9000"
 
+#  twc-sonarqube:
+#    image: sonarqube:lts
+#    hostname: 'twc-sonarqube'
+#    ports:
+#      - "9001:9000"
+
   twc-createbuckets:
     image: minio/mc
     depends_on:
