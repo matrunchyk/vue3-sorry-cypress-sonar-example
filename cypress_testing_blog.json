@@ -1,10 +1,10 @@
 {
-  "title": "Cypress testing blog",
+  "title": "cypress_testing_blog",
   "selectorAttribute": "data-cy",
   "steps": [
     {
       "type": "setViewport",
-      "width": 1070,
+      "width": 1134,
       "height": 984,
       "deviceScaleFactor": 1,
       "isMobile": false,
@@ -33,8 +33,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 27,
-      "offsetY": 16
+      "offsetX": 11,
+      "offsetY": 20
     },
     {
       "type": "click",
@@ -44,8 +44,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 97.5,
-      "offsetY": 15
+      "offsetX": 147.5,
+      "offsetY": 13
     },
     {
       "type": "change",
@@ -88,8 +88,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 117.5,
-      "offsetY": 13
+      "offsetX": 141.5,
+      "offsetY": 8
     },
     {
       "type": "click",
@@ -102,8 +102,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 36.09375,
-      "offsetY": 14
+      "offsetX": 33.09375,
+      "offsetY": 13
     },
     {
       "type": "click",
@@ -113,8 +113,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 181.0234375,
-      "offsetY": 11
+      "offsetX": 231.171875,
+      "offsetY": 21
     },
     {
       "type": "change",
@@ -127,15 +127,14 @@
       "target": "main"
     },
     {
-      "type": "click",
-      "selectors": [
-        [
-          "[data-cy=content-editable]"
-        ]
-      ],
+      "type": "keyDown",
       "target": "main",
-      "offsetX": 123.171875,
-      "offsetY": 79
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
     },
     {
       "type": "keyDown",
@@ -168,14 +167,14 @@
       "key": "i"
     },
     {
-      "type": "keyDown",
-      "target": "main",
-      "key": "s"
-    },
-    {
       "type": "keyUp",
       "key": "h",
       "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
     },
     {
       "type": "keyUp",
@@ -203,14 +202,14 @@
       "key": "i"
     },
     {
-      "type": "keyDown",
-      "target": "main",
-      "key": "s"
-    },
-    {
       "type": "keyUp",
       "key": "i",
       "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
     },
     {
       "type": "keyDown",
@@ -268,14 +267,14 @@
       "key": "w"
     },
     {
-      "type": "keyUp",
-      "key": "e",
-      "target": "main"
-    },
-    {
       "type": "keyDown",
       "target": "main",
       "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
     },
     {
       "type": "keyUp",
@@ -303,6 +302,11 @@
       "key": "o"
     },
     {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
+    },
+    {
       "type": "keyUp",
       "key": "o",
       "target": "main"
@@ -310,22 +314,17 @@
     {
       "type": "keyDown",
       "target": "main",
-      "key": "s"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
       "key": "t"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": " "
     },
     {
       "type": "keyUp",
       "key": "s",
       "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
     },
     {
       "type": "keyUp",
@@ -418,8 +417,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 75,
-      "offsetY": 12
+      "offsetX": 85,
+      "offsetY": 16
     },
     {
       "type": "click",
@@ -432,8 +431,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 54.09375,
-      "offsetY": 15
+      "offsetX": 61.09375,
+      "offsetY": 12
     },
     {
       "type": "click",
@@ -443,8 +442,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 214.0234375,
-      "offsetY": 26
+      "offsetX": 332.171875,
+      "offsetY": 8
     },
     {
       "type": "change",
@@ -464,8 +463,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 200.171875,
-      "offsetY": 79
+      "offsetX": 304.4140625,
+      "offsetY": 53
     },
     {
       "type": "keyDown",
@@ -475,52 +474,12 @@
     {
       "type": "keyDown",
       "target": "main",
-      "key": "A"
+      "key": "O"
     },
     {
       "type": "keyUp",
       "key": "Shift",
       "target": "main"
-    },
-    {
-      "type": "keyUp",
-      "key": "a",
-      "target": "main"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": "n"
-    },
-    {
-      "type": "keyUp",
-      "key": "n",
-      "target": "main"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": "d"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": " "
-    },
-    {
-      "type": "keyUp",
-      "key": "d",
-      "target": "main"
-    },
-    {
-      "type": "keyUp",
-      "key": " ",
-      "target": "main"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": "o"
     },
     {
       "type": "keyUp",
@@ -553,14 +512,14 @@
       "target": "main"
     },
     {
-      "type": "keyDown",
-      "target": "main",
-      "key": "m"
-    },
-    {
       "type": "keyUp",
       "key": " ",
       "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "m"
     },
     {
       "type": "keyDown",
@@ -586,6 +545,195 @@
       "type": "keyUp",
       "key": "o",
       "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "r",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "c"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "c",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "n"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "t"
+    },
+    {
+      "type": "keyUp",
+      "key": "n",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create]"
+        ],
+        [
+          "aria/Create"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 120,
+      "offsetY": 0
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=create-new]"
+        ],
+        [
+          "aria/Create new"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 24.09375,
+      "offsetY": 17
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 295.171875,
+      "offsetY": 22
+    },
+    {
+      "type": "change",
+      "value": "And another one",
+      "selectors": [
+        [
+          "[data-cy=title]"
+        ]
+      ],
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Tab"
+    },
+    {
+      "type": "keyUp",
+      "key": "Tab",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "Shift"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "H"
+    },
+    {
+      "type": "keyUp",
+      "key": "Shift",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": "h",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "r"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
     },
     {
       "type": "keyDown",
@@ -630,17 +778,7 @@
     {
       "type": "keyDown",
       "target": "main",
-      "key": "n"
-    },
-    {
-      "type": "keyDown",
-      "target": "main",
-      "key": "t"
-    },
-    {
-      "type": "keyUp",
-      "key": "n",
-      "target": "main"
+      "key": "m"
     },
     {
       "type": "keyDown",
@@ -649,7 +787,7 @@
     },
     {
       "type": "keyUp",
-      "key": "t",
+      "key": "m",
       "target": "main"
     },
     {
@@ -660,7 +798,22 @@
     {
       "type": "keyDown",
       "target": "main",
-      "key": "n"
+      "key": "s"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": " "
+    },
+    {
+      "type": "keyUp",
+      "key": "s",
+      "target": "main"
+    },
+    {
+      "type": "keyUp",
+      "key": " ",
+      "target": "main"
     },
     {
       "type": "keyDown",
@@ -669,12 +822,77 @@
     },
     {
       "type": "keyUp",
-      "key": "n",
+      "key": "t",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "r"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "o"
+    },
+    {
+      "type": "keyUp",
+      "key": "r",
       "target": "main"
     },
     {
       "type": "keyUp",
-      "key": "t",
+      "key": "o",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "u"
+    },
+    {
+      "type": "keyUp",
+      "key": "u",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "b"
+    },
+    {
+      "type": "keyUp",
+      "key": "b",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "l"
+    },
+    {
+      "type": "keyUp",
+      "key": "l",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "e"
+    },
+    {
+      "type": "keyUp",
+      "key": "e",
+      "target": "main"
+    },
+    {
+      "type": "keyDown",
+      "target": "main",
+      "key": "s"
+    },
+    {
+      "type": "keyUp",
+      "key": "s",
       "target": "main"
     },
     {
@@ -688,19 +906,41 @@
         ]
       ],
       "target": "main",
-      "offsetX": 89,
-      "offsetY": 16
+      "offsetX": 87,
+      "offsetY": 10
     },
     {
       "type": "click",
       "selectors": [
         [
-          "[data-cy=remove-post]"
+          "[data-cy=remove-post-0]"
         ]
       ],
       "target": "main",
-      "offsetX": 12.375,
+      "offsetX": 10.0390625,
+      "offsetY": 11
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=remove-post-1]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 11.0390625,
       "offsetY": 12
+    },
+    {
+      "type": "click",
+      "selectors": [
+        [
+          "[data-cy=remove-post-0]"
+        ]
+      ],
+      "target": "main",
+      "offsetX": 7.0390625,
+      "offsetY": 13
     },
     {
       "type": "click",
@@ -710,8 +950,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 41.6015625,
-      "offsetY": 18
+      "offsetX": 28.6015625,
+      "offsetY": 17
     },
     {
       "type": "click",
@@ -724,8 +964,8 @@
         ]
       ],
       "target": "main",
-      "offsetX": 142,
-      "offsetY": 9
+      "offsetX": 128,
+      "offsetY": 21
     }
   ]
 }
